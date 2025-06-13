@@ -1,0 +1,101 @@
+/* Custom CSS for Meeting Management Tool */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+}
+
+/* File Uploader */
+.stFileUploader {
+    background-color: white;
+    border: 2px dashed #6c757d;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Text Areas */
+.stTextArea > div > div > textarea {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Success Messages */
+.stSuccess {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Error Messages */
+.stError {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.progress-step {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+}
+
+.progress-step.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Card Layout */
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
