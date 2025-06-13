@@ -1,0 +1,12 @@
+streamlit
+openai
+vosk
+pydub
+moviepy
+pinecone
+pinecone-client
+langchain
+langchain-community
+langchain-openai
+python-dotenv
+fpdf
