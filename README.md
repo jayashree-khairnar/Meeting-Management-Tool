@@ -1,10 +1,10 @@
-# 📅 AI-Powered Meeting Management Tool
+# AI-Powered Meeting Management Tool
 
 An end-to-end intelligent meeting assistant that automates agenda creation, live discussion tracking, and post-meeting analysis using LLMs (GPT-4), RAG (Retrieval-Augmented Generation), and speech-to-text technologies.
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Pre-Meeting Setup:**
 
@@ -25,7 +25,7 @@ An end-to-end intelligent meeting assistant that automates agenda creation, live
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * **Python, Streamlit** – Frontend and orchestration
 * **OpenAI GPT-4** – Summarization, agenda creation, point resolution
@@ -35,7 +35,7 @@ An end-to-end intelligent meeting assistant that automates agenda creation, live
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
 
